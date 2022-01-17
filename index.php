@@ -1,7 +1,7 @@
 <?php
     $testoOriginale= 'Ciao!, mi chiamo Sergjio.'; 
     $censura= $_GET['censura'];
-    $testoCensurato= str_replace(strtolower($censura), '***', strtolower($testoOriginale));
+    $testoCensurato= str_replace($censura, '***', $testoOriginale);
 ?>
 
 <!DOCTYPE html>
